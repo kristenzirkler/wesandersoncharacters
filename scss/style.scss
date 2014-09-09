@@ -1,0 +1,341 @@
+@import 'reset';
+
+$page-background: #fff;
+$page-accent: #e7be0e;
+
+$rushmore: #06152d;
+$royal: #ae743e;
+$lifeaquatic: #3fb1d1;
+$darjeeling: #009084;
+$mrfox: #d6621d;
+$moonrise: #e7be0e;
+$budapest: #553562;
+
+$category-list: rushmore, royal, lifeaquatic, darjeeling, mrfox, moonrise, budapest;
+$category-vars-list: $rushmore, $royal, $lifeaquatic, $darjeeling, $mrfox, $moonrise, $budapest;
+
+$accent-font: 'Grand Hotel', sans-serif;
+$controls-color: #fff;
+$button-height: 35px;
+$button-highlight: $controls-color;
+
+@mixin tile-design($color) {
+
+  background: $color;
+
+  .name {
+    background: rgba($color,.9);
+  }
+  .count em {
+    color: $color;
+  }
+  &:hover, &:active {
+    .name {
+      background: none;
+    }
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: darken($page-background,5);
+  position: relative;
+}
+body, button, label {
+  font-family: 'Futura', 'Helvetica Neue', arial, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.intro {
+  background: #000;
+  position: relative;
+  overflow: hidden;
+  height: 40vh;
+  .title {
+    position: relative;
+    z-index: 2;
+    padding: 20vh 4vw 0;
+    text-align: center;
+  }
+  img {
+    height: 40vh;
+    position: absolute;
+    z-index: 1;
+    top:0;
+    right:0;
+  }
+  h1 {
+    font-size: 5.5vw;
+    color: #fff;
+    em {
+      font-size: .6em;
+      margin-bottom: 10px;
+      font-family: $accent-font;
+      display: block;
+    }
+    strong {
+      text-transform: uppercase;
+    }
+  }
+  .bg {
+    position: absolute;
+    background-position: center center;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    background-size: cover;
+    opacity: .5;
+    z-index: 1;
+  }
+}
+.controls {
+  width: 100%;
+  z-index: 15;
+  position: fixed;
+  top:0; left: 0; right:0;
+  
+  display: none;
+
+  background: rgba($controls-color,.5);
+  color: #333;
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+    width: 100%;
+  }
+  .filter-name {
+    padding: 5px;
+    clear: both;
+    color: #333;
+    display: none;
+    cursor: pointer;
+    i {
+      float: left;
+      margin-right: 5px;
+    }
+    &:hover {
+      background: #fff;
+    }
+  }
+  button {
+    line-height: $button-height;
+    
+    margin: 0;
+    background: rgba($controls-color,.9);
+    border: 0;
+    cursor: pointer;
+    font-size: .9em;
+
+    &.active, &:hover {
+      background: $button-highlight;
+    }
+
+    &:focus {
+      outline: 0 none;
+    }
+    
+  }
+}
+.dropdown {
+  position: relative;
+  width: 33.3%;
+  float: left;
+
+  label {
+    background: rgba($controls-color,.5);
+    padding: 0 .8em;
+    line-height: $button-height;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    i {
+      float: right;
+      line-height: $button-height;
+    }
+    &.open, &:hover {
+      background: $controls-color;
+    }
+  }
+  .options {
+    position: absolute;
+    top: $button-height;
+    z-index: 16;
+    width: 100%;
+    display: none;
+  }
+  button {
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+  &.active {
+    label {
+      background: darken($controls-color,20);
+    }
+    .options {
+      display: block;
+    }
+  }
+}
+
+.container {
+  padding: 1vw 1vw 0;
+  text-align: justify;
+  -webkit-backface-visibility: hidden;
+  &:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+  .mix {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    display: none;
+    position: relative;
+    @for $i from 1 through length($category-list) {
+      &.category-#{nth($category-list, $i)} {
+        @include tile-design(nth($category-vars-list, $i));
+      }
+    }
+    span, .photo {
+      position: absolute;
+      display: block;
+      text-align: center;
+    }
+    .name {
+      bottom: 0px;
+      width: 100%;
+      font-size: .8em;
+      padding: 1em 3px;
+      text-transform: uppercase;
+      font-weight: bold;
+      transition: all .5s;
+      z-index: 2;
+    }
+    .category, .type {
+      position: absolute;
+      width: 100%;
+      text-transform: uppercase;
+      opacity: 0;
+      z-index: 3;
+      padding: 0 1em;
+      font-size:.9em;
+    }
+    .type:after, .category:before {
+        width: 24px;
+
+        left: 50%;
+        margin-left: -12px;
+
+        font-family: $accent-font;
+        position: absolute;
+        text-transform: none;
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .type {
+      bottom: 115px;
+      &:after {
+        content: 'as';
+        bottom: -18px;
+      }
+    }
+    .category {
+      bottom: 18px;
+      &:before {
+        content: 'in';
+        top: -23px;
+        
+      }
+    }
+    .photo {
+      top: 0; bottom: 0;
+      left: 0; right: 0;
+      overflow: hidden;
+      z-index: 2;
+      transition: all .5s;
+      background-size: cover;
+    }
+    .count {
+      border-color: rgba(#fff,.7) rgba(#fff,.7) transparent;
+      border-width: 45px 15px 15px;
+      border-style: solid;
+      height: 0;
+      width: 0;
+      
+      display: block;
+      opacity: 0;
+      
+      position: absolute;
+      top: 0;
+      right: 10px;
+      z-index: 5;
+      
+      transition: all .8s;
+      em {
+        font-size: 14px;
+        color: white;
+        width: 30px;
+        text-align: center;
+        display: block;
+        position: absolute;
+        top: -35px;
+        left: -15px;
+        &:before {
+          content: '\f007';
+          font: normal normal normal 10px/1 FontAwesome;
+          margin-bottom: 3px;
+          display: block;
+        }
+      }
+    }
+    &:hover {
+      .type, .category {
+        opacity: 1;
+        transition: all 1.5s;
+      }
+      .name {
+        bottom: 45px;
+        font-size: 1.3em;
+      }
+      .photo {
+        opacity: .2;
+      }
+      .count {
+        opacity: 1;
+      }
+    }
+  }
+}
+/* Responsive Page Layout */
+.container {
+  .mix, .gap {
+    float: left;
+    width: 96vw;
+    height: 96vw;
+    margin: 1vw;
+  }
+}
+@media all and (min-width: 420px) {
+  .container {
+    .mix, .gap {
+      width: 47vw;
+      height: 47vw;
+    }
+  }
+}
+
+@media all and (min-width: 800px) {
+  .container {
+    .mix, .gap {
+      width: 30.6vw;
+      height: 30.6vw;
+    }
+  }
+}
