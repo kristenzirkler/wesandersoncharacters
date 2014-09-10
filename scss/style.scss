@@ -15,7 +15,7 @@ $category-vars-list: $rushmore, $royal, $lifeaquatic, $darjeeling, $mrfox, $moon
 
 $accent-font: 'Grand Hotel', sans-serif;
 $controls-color: #fff;
-$button-height: 35px;
+$button-height: 45px;
 $button-highlight: $controls-color;
 
 @mixin tile-design($color) {
@@ -161,7 +161,8 @@ a {
 
   label {
     background: rgba($controls-color,.5);
-    padding: 0 .8em;
+    padding: 0 15px;
+    font-size: 1.3em;
     line-height: $button-height;
     display: block;
     cursor: pointer;
