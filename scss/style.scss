@@ -445,14 +445,68 @@ a {
   }
 }
 .site-design {
+  background: #e5e5e5;
+  color: #666;
+  padding: 40px;
   a {
     display: block;
-    padding: 40px;
-    background: #e5e5e5;
     color: #666;
     &:hover {
       color: #000;
     }
+  }
+  .why-wes {
+    width: 40vw;
+  }
+  p {
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  .button {
+    display: block;
+    padding: 1em;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    margin: 1em 0;
+    text-transform: uppercase;
+    &:hover {
+      background: #000;
+      color: #fff;
+    }
+  }
+  .made-in-az {
+    float: right;
+    width: 230px;
+    padding-right: 100px;
+    position: relative;
+    span {
+      margin-top: 20px;
+      line-height: 1.5em;
+      display: block;
+    }
+    &:hover {
+      .icon-arizona {
+        color: #e13c3b;
+      }
+      .icon-heart-empty {
+        color: #fff;
+      }
+    }
+  }
+  .icon-heart-empty {
+    color: #ccc;
+    position: absolute;
+    font-size: 30px;
+    top: 26px;
+    right: 21px;
+  }
+  .icon-arizona {
+    color: #999;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 80px;
   }
 }
 /* Responsive Page Layout */
