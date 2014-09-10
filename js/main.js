@@ -1,4 +1,6 @@
 $(function(){
+  
+  // Card Display & Sorting
   $('#ItemList').mixItUp({
     load: {
       sort: 'random'
@@ -14,6 +16,24 @@ $(function(){
       }
     }
   });
+  
+  
+  // Movie Details
+  $('.mix').click(function() {
+    var movieString = $(this).data('movie'), 
+        videoID = $('.movie-'+movieString).data('video');
+   
+    $('.movie-'+movieString+' iframe').attr('src','//www.youtube.com/embed/'+videoID+'?autohide=1&modestbranding=1&rel=0&showinfo=0');
+    
+    $('.movie-'+movieString).show('slow');
+    
+  });
+  $('.movie').click(function() {
+    $('.movie').hide('fast');
+    $('.movie iframe').attr('src','');
+  });
+  
+  // Navigation Show on Scroll
   $(document).scroll(function () {
     var y = $(document).scrollTop();
     var t = $('.container').offset().top;
@@ -23,7 +43,9 @@ $(function(){
     } else {
         $('.controls').fadeOut();
     }
-});
+  });
+  
+  // Navigation Dropdowns
   $('.dropdown label').click(function() {
     if ($(this).parent().hasClass('active')) {
       $('.dropdown').removeClass('active');
@@ -39,11 +61,9 @@ $(function(){
       $('.dropdown').removeClass('active');
       $('.dropdown label i').removeClass('fa-times').addClass('fa-ellipsis-h');
   });
-  
   $('#filter-name').click(function() {
       $(this).hide();
   });
-  
   $('#filter-name').hover(function() {
     $(this).find('i').toggleClass('fa-filter').toggleClass('fa-close');
   });
@@ -78,3 +98,6 @@ function IsNumeric(n){
     return !isNaN(n);
 }
 */
+
+    
+
