@@ -48,6 +48,10 @@ $button-highlight: $controls-color;
     border-top: 4px solid $color;
   }
 }
+@mixin filter-design($color) {
+  background: $color;
+  color: #fff;
+}
 
 * {
   -webkit-box-sizing: border-box;
@@ -133,6 +137,12 @@ a {
     }
     &:hover {
       background: #fff;
+    }
+  }
+
+  @for $i from 1 through length($category-list) {
+    .filter-#{nth($category-list, $i)} {
+      @include filter-design(nth($category-vars-list, $i));
     }
   }
   button {
@@ -385,6 +395,17 @@ a {
       position: absolute;
       left: 0;
       bottom: 0;   
+    }
+  }
+}
+.site-design {
+  a {
+    display: block;
+    padding: 40px;
+    background: #e5e5e5;
+    color: #666;
+    &:hover {
+      color: #000;
     }
   }
 }
