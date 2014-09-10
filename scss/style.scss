@@ -2,7 +2,9 @@
 $page-background: #fff;
 $page-accent: #e7be0e;
 
-$rushmore: #06152d;
+$rushmore: #0f2d5d;
+$rushmore: #123670;
+
 $royal: #ae743e;
 $lifeaquatic: #3fb1d1;
 $darjeeling: #009084;
@@ -17,6 +19,8 @@ $accent-font: 'Grand Hotel', sans-serif;
 $controls-color: #fff;
 $button-height: 45px;
 $button-highlight: $controls-color;
+
+$intro-height: 40vh;
 
 @mixin tile-design($color) {
 
@@ -49,8 +53,9 @@ $button-highlight: $controls-color;
   }
 }
 @mixin filter-design($color) {
-  background: $color;
-  color: #fff;
+  &:before {
+    background: $color;
+  }
 }
 
 * {
@@ -72,7 +77,7 @@ a {
   background: #000;
   position: relative;
   overflow: hidden;
-  height: 40vh;
+  height: $intro-height;
   .title {
     position: relative;
     z-index: 2;
@@ -110,20 +115,33 @@ a {
   }
 }
 .controls {
-  width: 100%;
-  z-index: 15;
-  position: fixed;
-  top:0; left: 0; right:0;
-  
-  display: none;
-
-  background: rgba($controls-color,.5);
-  color: #333;
-  &:after {
-    content: '';
-    display: table;
-    clear: both;
+  .control {
+    background: rgba($controls-color,.9);
+    color: #333;
     width: 100%;
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+      width: 100%;
+    }
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0; right:0;
+    z-index: 15;
+  }
+  .title {
+    float: left;
+    width: 80px;
+    line-height: $button-height;
+    text-transform: uppercase;
+    padding: 0 15px;
+  }
+  .filters {
+    float: left;
+    width: calc(100% - 80px);
   }
   .filter-name {
     padding: 5px;
@@ -145,14 +163,27 @@ a {
       @include filter-design(nth($category-vars-list, $i));
     }
   }
+  .movie-filters .filter {
+    &:before {
+      content: ' ';
+      border-radius: 50%;
+      width: $button-height/3;
+      height: $button-height/3;
+      display: block;
+      float: left;
+      margin-top: $button-height/2 - ($button-height/3)/2;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
   button {
     line-height: $button-height;
     
     margin: 0;
-    background: rgba($controls-color,.9);
     border: 0;
     cursor: pointer;
     font-size: .9em;
+    background: rgba($controls-color,.9);
 
     &.active, &:hover {
       background: $button-highlight;
@@ -170,7 +201,6 @@ a {
   float: left;
 
   label {
-    background: rgba($controls-color,.5);
     padding: 0 15px;
     font-size: 1.3em;
     line-height: $button-height;

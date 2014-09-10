@@ -31,47 +31,53 @@
   <div class="title">
     <h1><em>The Characters of</em><span>Wes <strong>Anderson</strong></h1>
   </div>
-</div>
+</div><!-- .intro -->
 
 <div class="controls">
-  <div class="dropdown">
-    <label><i class="fa fa-ellipsis-h"></i>Movie</label>
-    <div class="options">
-      <button class="filter filter-rushmore" data-filter=".category-rushmore">Rushmore</button>
-      <button class="filter filter-royal" data-filter=".category-royal">The Royal Tenenbaums</button>
-      <button class="filter filter-lifeaquatic" data-filter=".category-lifeaquatic">The Life Aquatic</button>
-      <button class="filter filter-darjeeling" data-filter=".category-darjeeling">Darjeeling Limited</button>
-      <button class="filter filter-mrfox" data-filter=".category-mrfox">Fantastic Mr. Fox</button>
-      <button class="filter filter-moonrise" data-filter=".category-moonrise">Moonrise Kingdom</button>
-      <button class="filter filter-budapest" data-filter=".category-budapest">The Grand Budapest Hotel</button>
-    </div>
-  </div>
+  <div class="control">
+    <div class="title">Filter:</div>
+    <div class="filters">
+      <div class="dropdown movie-filters">
+        <label><i class="fa fa-ellipsis-h"></i>Movie</label>
+        <div class="options">
+          <button class="filter filter-rushmore" data-filter=".category-rushmore">Rushmore</button>
+          <button class="filter filter-royal" data-filter=".category-royal">The Royal Tenenbaums</button>
+          <button class="filter filter-lifeaquatic" data-filter=".category-lifeaquatic">The Life Aquatic</button>
+          <button class="filter filter-darjeeling" data-filter=".category-darjeeling">Darjeeling Limited</button>
+          <button class="filter filter-mrfox" data-filter=".category-mrfox">Fantastic Mr. Fox</button>
+          <button class="filter filter-moonrise" data-filter=".category-moonrise">Moonrise Kingdom</button>
+          <button class="filter filter-budapest" data-filter=".category-budapest">The Grand Budapest Hotel</button>
+        </div>
+      </div>
 
-  <div class="dropdown">
-    <label><i class="fa fa-ellipsis-h"></i>Actor</label>
-    <div class="options">
-      <button class="filter" data-filter=".type-bill-murray">Bill Murray</button>
-      <button class="filter" data-filter=".type-jason-schwartzman">Jason Schwartzman</button>
-      <button class="filter" data-filter=".type-owen-wilson">Owen Wilson</button>
-      <button class="filter" data-filter=".type-anjelica-huston">Anjelica Huston</button>
-      <button class="filter" data-filter=".type-kumar-pallana">Kumar Pallana</button>
-    </div>
-  </div>
+      <div class="dropdown">
+        <label><i class="fa fa-ellipsis-h"></i>Actor</label>
+        <div class="options">
+          <button class="filter" data-filter=".type-bill-murray">Bill Murray</button>
+          <button class="filter" data-filter=".type-jason-schwartzman">Jason Schwartzman</button>
+          <button class="filter" data-filter=".type-owen-wilson">Owen Wilson</button>
+          <button class="filter" data-filter=".type-anjelica-huston">Anjelica Huston</button>
+          <button class="filter" data-filter=".type-kumar-pallana">Kumar Pallana</button>
+        </div>
+      </div>
 
-  <div class="dropdown">
-    <label><i class="fa fa-ellipsis-h"></i>Ladies & Gents</label>
-    <div class="options">
-      <button class="filter" data-filter=".gender-F">Ladies</button>
-      <button class="filter" data-filter=".gender-M">Gents</button>
+      <div class="dropdown">
+        <label><i class="fa fa-ellipsis-h"></i>Ladies & Gents</label>
+        <div class="options">
+          <button class="filter" data-filter=".gender-F">Ladies</button>
+          <button class="filter" data-filter=".gender-M">Gents</button>
+        </div>
+      </div>
+    </div>
+    <div class="sort">
+      <div class="filter filter-name" data-filter="all" id="filter-name"></div>
+      <!--button class="">All Characters</button-->
+      <!--button class="sort" data-sort="myorder:asc"><i class="fa fa-sort-amount-asc"></i></button>
+      <button class="sort" data-sort="myorder:desc"><i class="fa fa-sort-amount-desc"></i></button-->
     </div>
   </div>
-  <div class="sort">
-    <div class="filter filter-name" data-filter="all" id="filter-name"></div>
-    <!--button class="">All Characters</button-->
-    <!--button class="sort" data-sort="myorder:asc"><i class="fa fa-sort-amount-asc"></i></button>
-    <button class="sort" data-sort="myorder:desc"><i class="fa fa-sort-amount-desc"></i></button-->
-  </div>
-</div>
+</div><!-- .controls -->
+
 <div id="ItemList" class="container">
 <div class="mix type-bill-murray category-budapest gender-M" data-movie="budapest" data-myorder="108"><span class="photo" style="background-image: url(img/wes-char-007.jpg);"></span><span class="name">M. Ivan</span><span class="type">Bill Murray</span><span class="category">The Grand Budapest Hotel</span><span class="count"><em>7</em></span></div>
 <div class="mix type-jason-schwartzman category-budapest gender-M" data-movie="budapest" data-myorder="111"><span class="photo" style="background-image: url(img/wes-char-012.jpg);"></span><span class="name">M. Jean</span><span class="type">Jason Schwartzman</span><span class="category">The Grand Budapest Hotel</span><span class="count"><em>5</em></span></div>

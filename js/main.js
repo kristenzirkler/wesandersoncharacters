@@ -32,19 +32,19 @@ $(function(){
     $('.movie').hide('fast');
     $('.movie iframe').attr('src','');
   });
-  
+/*  
   // Navigation Show on Scroll
   $(document).scroll(function () {
     var y = $(document).scrollTop();
-    var t = $('.container').offset().top;
+    var t = $('.controls').offset().top;
 
     if (y > t) {
-        $('.controls').fadeIn();
+        $('.control').addClass('sticky');
     } else {
-        $('.controls').fadeOut();
+        $('.control').removeClass('sticky');
     }
-  });
-  
+	});
+*/
   // Navigation Dropdowns
   $('.dropdown label').click(function() {
     if ($(this).parent().hasClass('active')) {
