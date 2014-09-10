@@ -206,11 +206,14 @@ a {
     width: 100%;
   }
   .mix {
+    display: none;
+    cursor: pointer;
+
     text-align: center;
     background: #333;
     color: #fff;
-    display: none;
     position: relative;
+
     @for $i from 1 through length($category-list) {
       &.category-#{nth($category-list, $i)} {
         @include tile-design(nth($category-vars-list, $i));
@@ -329,6 +332,7 @@ a {
 .movies {
   .movie {
     display: none;
+    cursor: pointer;
     
     position: absolute;
     top: 0; bottom: 0;
