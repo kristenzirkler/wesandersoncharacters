@@ -10,7 +10,7 @@ $(function(){
         var catString = $('[data-filter="'+state.activeFilter+'"]').html();
        
         if (catString !== undefined) {
-           $('#filter-name').html('<i class="fa fa-filter"></i>'+catString).show('fast');
+           $('#filter-name').html('<i class="icon-filter"></i>'+catString).show('fast');
         }
         
       }
@@ -50,22 +50,22 @@ $(function(){
     if ($(this).parent().hasClass('active')) {
       $('.dropdown').removeClass('active');
     } else {
-      $('.dropdown label i').removeClass('fa-times').addClass('fa-ellipsis-h');
+      $('.dropdown label .toggle').removeClass('icon-cancel').addClass('icon-down-open');
       $('.dropdown').removeClass('active');
       $(this).parent().toggleClass('active');
     }
 
-    $(this).find('i').toggleClass('fa-ellipsis-h').toggleClass('fa-times');
+    $(this).find('.toggle').toggleClass('icon-down-open').toggleClass('icon-cancel');
   });
   $('.filter').click(function() {
       $('.dropdown').removeClass('active');
-      $('.dropdown label i').removeClass('fa-times').addClass('fa-ellipsis-h');
+      $('.dropdown label .toggle').removeClass('icon-cancel').addClass('icon-down-open');
   });
   $('#filter-name').click(function() {
       $(this).hide();
   });
   $('#filter-name').hover(function() {
-    $(this).find('i').toggleClass('fa-filter').toggleClass('fa-close');
+    $(this).find('i').toggleClass('icon-filter').toggleClass('icon-cancel');
   });
     
 });
