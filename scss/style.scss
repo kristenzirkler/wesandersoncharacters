@@ -1,28 +1,9 @@
+@import 'variables';
+
 @import 'reset';
+@import 'filters';
+@import 'movie';
 @import 'icons';
-
-$page-background: #fff;
-$page-accent: #e7be0e;
-
-$rushmore: #0f2d5d;
-$rushmore: #123670;
-
-$royal: #ae743e;
-$lifeaquatic: #3fb1d1;
-$darjeeling: #009084;
-$mrfox: #d6621d;
-$moonrise: #e7be0e;
-$budapest: #553562;
-
-$category-list: rushmore, royal, lifeaquatic, darjeeling, mrfox, moonrise, budapest;
-$category-vars-list: $rushmore, $royal, $lifeaquatic, $darjeeling, $mrfox, $moonrise, $budapest;
-
-$accent-font: 'Grand Hotel', sans-serif;
-$controls-color: #fff;
-$button-height: 45px;
-$button-highlight: $controls-color;
-
-$intro-height: 40vh;
 
 @mixin tile-design($color) {
 
@@ -38,28 +19,6 @@ $intro-height: 40vh;
     .name {
       background: none;
     }
-  }
-}
-@mixin movie-design($color) {
-
-  background: rgba($color,.9);
-  .content {
-    border-color: $color;
-    box-shadow: 0 0 50px darken($color,10);
-  }
-  em {
-    background: $color;
-  }
-  iframe {
-    border-top: 4px solid $color;
-  }
-}
-@mixin filter-design($color) {
-  &:before {
-    background: $color;
-  }
-  &:hover {
-    background: rgba($color,.2);
   }
 }
 
@@ -117,139 +76,6 @@ a {
     background-size: cover;
     opacity: .5;
     z-index: 1;
-  }
-}
-.controls {
-  .control {
-    background: rgba($controls-color,.9);
-    color: #333;
-    width: 100%;
-    border-bottom: 1px solid #ccc;
-    &:after {
-      content: '';
-      display: table;
-      clear: both;
-      width: 100%;
-    }
-  }
-  .sticky {
-    position: fixed;
-    top: 0;
-    left: 0; right:0;
-    z-index: 15;
-  }
-  .title {
-    float: left;
-    width: 80px;
-    line-height: $button-height;
-    text-transform: uppercase;
-    padding: 0 15px;
-  }
-  .filters {
-    float: left;
-    width: calc(100% - 80px);
-  }
-  .filter-name {
-    padding: 5px;
-    clear: both;
-    color: #333;
-    display: none;
-    cursor: pointer;
-    border-top: 1px solid #ccc;
-    i {
-      float: left;
-      margin-right: 5px;
-      width: 20px;
-      text-align: center;
-    }
-    &:hover {
-      background: #ccc;
-    }
-  }
-
-  @for $i from 1 through length($category-list) {
-    .filter-#{nth($category-list, $i)} {
-      @include filter-design(nth($category-vars-list, $i));
-    }
-  }
-  .movie-filters .filter {
-    &:before {
-      content: ' ';
-      border-radius: 50%;
-      width: $button-height/3;
-      height: $button-height/3;
-      display: block;
-      float: left;
-      margin-top: $button-height/2 - ($button-height/3)/2;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-  }
-  button {
-    line-height: $button-height;
-    
-    margin: 0;
-    border: 0;
-    cursor: pointer;
-    font-size: .9em;
-    //background: rgba($controls-color,.9);
-
-    &.active, &:hover {
-      //background: $button-highlight;
-    }
-
-    &:focus {
-      outline: 0 none;
-    }
-    
-  }
-}
-.dropdown {
-  position: relative;
-  width: 33.3%;
-  float: left;
-  height: $button-height;
-
-  label {
-    padding: 0 15px;
-    font-size: 1.3em;
-    line-height: $button-height;
-    display: block;
-    cursor: pointer;
-    text-transform: uppercase;
-    border-left: 1px solid #ccc;
-    .toggle {
-      float: right;
-      line-height: $button-height;
-    }
-    &.open, &:hover {
-      background: $controls-color;
-    }
-  }
-  .options {
-    position: absolute;
-    top: $button-height;
-    z-index: 16;
-    width: 100%;
-    display: none;
-    border: 1px solid #ccc;
-    border-top: none;
-    border-right: none;
-    background: rgba($controls-color,.95);
-  }
-  button {
-    display: block;
-    text-align: left;
-    width: 100%;
-    background: transparent;
-  }
-  &.active {
-    label {
-      background: $controls-color;
-    }
-    .options {
-      display: block;
-    }
   }
 }
 
@@ -383,64 +209,6 @@ a {
       .count {
         opacity: 1;
       }
-    }
-  }
-}
-.movies {
-  .movie {
-    display: none;
-    cursor: pointer;
-    
-    position: absolute;
-    top: 0; bottom: 0;
-    left: 0; right: 0;
-    z-index: 20;
-    
-    @for $i from 1 through length($category-list) {
-      &.movie-#{nth($category-list, $i)} {
-        @include movie-design(nth($category-vars-list, $i));
-      }
-    }
-    a {
-      color: #333;
-      display: none;
-    }
-    .content {
-      background: #fff;
-      max-width: 680px;
-      height: 580px;
-      border-width: 10px;
-      border-style: solid;
-      position: fixed;
-      top: 0; bottom: 0;
-      left: 0; right: 0;
-      margin: auto;
-      text-align: center;
-    }
-    h3 {
-      font-size: 2.5em;
-      padding: 40px 20px 20px;
-    }
-    p {
-      line-height: 1.5em;
-      padding: 0 40px 40px;
-    }
-    em {
-      color: #fff;
-      font-size: 12px;
-      position: absolute;
-      bottom: 360px - 15px - 2px;
-      left: 50%;
-      line-height: 30px;
-      margin-left: -40px;
-      width: 80px;
-      z-index: 2;
-    }
-    iframe {
-      width: 100%;
-      position: absolute;
-      left: 0;
-      bottom: 0;   
     }
   }
 }
