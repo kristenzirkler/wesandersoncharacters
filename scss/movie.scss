@@ -76,12 +76,8 @@
 
 /* Responsive Page Layout */
 
-@media all and (min-width: 420px) {
+@media all and (min-width: 680px) {
   
-}
-
-@media all and (min-width: 800px) {
-
 .movies {
   .movie {
     .content {
@@ -105,5 +101,10 @@
 
   }
 }
+
+}
+
+@media all and (min-width: 800px) {
+
 
 }
