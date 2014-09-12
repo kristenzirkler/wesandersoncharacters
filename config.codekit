@@ -40,6 +40,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/imdb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1231,
+		"inputAbbreviatedPath": "\/img\/imdb.png",
+		"outputAbbreviatedPath": "\/img\/imdb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/wes-black.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -799,6 +810,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/wes-char-119.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38313,
+		"inputAbbreviatedPath": "\/img\/wes-char-119.jpg",
+		"outputAbbreviatedPath": "\/img\/wes-char-119.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wes-char-120.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53524,
+		"inputAbbreviatedPath": "\/img\/wes-char-120.jpg",
+		"outputAbbreviatedPath": "\/img\/wes-char-120.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wes-char-121.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46719,
+		"inputAbbreviatedPath": "\/img\/wes-char-121.jpg",
+		"outputAbbreviatedPath": "\/img\/wes-char-121.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wes-char-122.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48298,
+		"inputAbbreviatedPath": "\/img\/wes-char-122.jpg",
+		"outputAbbreviatedPath": "\/img\/wes-char-122.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wiki.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1247,
+		"inputAbbreviatedPath": "\/img\/wiki.png",
+		"outputAbbreviatedPath": "\/img\/wiki.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -907,6 +973,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/movie.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/movie.scss",
+		"outputAbbreviatedPath": "\/css\/movie.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/reset.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -935,6 +1017,22 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/variables.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/variables.scss",
+		"outputAbbreviatedPath": "\/css\/variables.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
