@@ -1,0 +1,13 @@
+{% for movie in site.data.movies %}
+    <div class="movie movie-{{ movie.movie-slug }}" data-video="{{ movie.trailer-video }}">
+      <div class="content">
+        <h3>{{ movie.movie-title }}</h3>
+        <em>{{ movie.year }}</em>
+        <p>{{ movie.blurb }}<br>
+        <a target="_blank" class="imdb" href="{{ movie.imdb-link }}">IMDB</a>
+        <a target="_blank" class="wiki" href="{{ movie.wiki }}">Wiki</a>
+        </p>
+        <iframe width="100%" height="360" src="" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+{% endfor %}

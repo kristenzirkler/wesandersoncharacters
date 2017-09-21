@@ -1,0 +1,701 @@
+---
+#characters
+- kumar:
+  character-name: Kumar
+  actor-slug: kumar-pallana
+  actor-name: Kumar Pallana
+  movie-slug: bottle
+  gender: M
+  originalsort: 112
+  photo-id: '122'
+  actor-movie-count: 4
+
+- anthony-adams:
+  character-name: Anthony Adams
+  actor-slug: luke-wilson
+  actor-name: Luke Wilson
+  movie-slug: bottle
+  gender: M
+  originalsort: 109
+  photo-id: '119'
+  actor-movie-count: 3
+
+- dignan:
+  character-name: Dignan
+  actor-slug: owen-wilson
+  actor-name: Owen Wilson
+  movie-slug: bottle
+  gender: M
+  originalsort: 110
+  photo-id: '120'
+  actor-movie-count: 6
+
+- bob-mapplethorpe:
+  character-name: Bob Mapplethorpe
+  actor-slug: robert-musgrave
+  actor-name: Robert Musgrave
+  movie-slug: bottle
+  gender: M
+  originalsort: 111
+  photo-id: '121'
+  actor-movie-count: 
+
+- dmitri:
+  character-name: Dmitri
+  actor-slug: adrien-brody
+  actor-name: Adrien Brody
+  movie-slug: budapest
+  gender: M
+  originalsort: 103
+  photo-id: '020'
+  actor-movie-count: 3
+
+- m-ivan:
+  character-name: M. Ivan
+  actor-slug: bill-murray
+  actor-name: Bill Murray
+  movie-slug: budapest
+  gender: M
+  originalsort: 108
+  photo-id: '007'
+  actor-movie-count: 7
+
+- henckels:
+  character-name: Henckels
+  actor-slug: edward-norton
+  actor-name: Edward Norton
+  movie-slug: budapest
+  gender: M
+  originalsort: 109
+  photo-id: '041'
+  actor-movie-count: 2
+
+- mr-moustafa:
+  character-name: Mr. Moustafa
+  actor-slug: f-murray-abraham
+  actor-name: F. Murray Abraham
+  movie-slug: budapest
+  gender: M
+  originalsort: 101
+  photo-id: '077'
+  actor-movie-count: 
+
+- ludwig:
+  character-name: Ludwig
+  actor-slug: harvey-keitel
+  actor-name: Harvey Keitel
+  movie-slug: budapest
+  gender: M
+  originalsort: 106
+  photo-id: '045'
+  actor-movie-count: 2
+
+- m-jean:
+  character-name: M. Jean
+  actor-slug: jason-schwartzman
+  actor-name: Jason Schwartzman
+  movie-slug: budapest
+  gender: M
+  originalsort: 111
+  photo-id: '012'
+  actor-movie-count: 5
+
+- deputy-kovacs:
+  character-name: Deputy Kovacs
+  actor-slug: jeff-goldblum
+  actor-name: Jeff Goldblum
+  movie-slug: budapest
+  gender: M
+  originalsort: 105
+  photo-id: '047'
+  actor-movie-count: 2
+
+- young-writer:
+  character-name: Young Writer
+  actor-slug: jude-law
+  actor-name: Jude Law
+  movie-slug: budapest
+  gender: M
+  originalsort: 107
+  photo-id: '093'
+  actor-movie-count: 
+
+- clotilde:
+  character-name: Clotilde
+  actor-slug: léa-seydoux
+  actor-name: Léa Seydoux
+  movie-slug: budapest
+  gender: F
+  originalsort: 112
+  photo-id: '098'
+  actor-movie-count: 
+
+- serge-x:
+  character-name: Serge X.
+  actor-slug: mathieu-amalric
+  actor-name: Mathieu Amalric
+  movie-slug: budapest
+  gender: M
+  originalsort: 102
+  photo-id: '101'
+  actor-movie-count: 
+
+- m-chuck:
+  character-name: M. Chuck
+  actor-slug: owen-wilson
+  actor-name: Owen Wilson
+  movie-slug: budapest
+  gender: M
+  originalsort: 115
+  photo-id: '017'
+  actor-movie-count: 6
+
+- m-gustave:
+  character-name: M. Gustave
+  actor-slug: ralph-fiennes
+  actor-name: Ralph Fiennes
+  movie-slug: budapest
+  gender: M
+  originalsort: 100
+  photo-id: '106'
+  actor-movie-count: 
+
+- agatha:
+  character-name: Agatha
+  actor-slug: saoirse-ronan
+  actor-name: Saoirse Ronan
+  movie-slug: budapest
+  gender: F
+  originalsort: 110
+  photo-id: '110'
+  actor-movie-count: 
+
+- madame-d:
+  character-name: Madame D.
+  actor-slug: tilda-swinton
+  actor-name: Tilda Swinton
+  movie-slug: budapest
+  gender: F
+  originalsort: 113
+  photo-id: '061'
+  actor-movie-count: 2
+
+- zero:
+  character-name: Zero
+  actor-slug: tony-revolori
+  actor-name: Tony Revolori
+  movie-slug: budapest
+  gender: M
+  originalsort: 116
+  photo-id: '118'
+  actor-movie-count: 
+
+- m-dino:
+  character-name: M. Dino
+  actor-slug: waris-ahluwalia
+  actor-name: Waris Ahluwalia
+  movie-slug: budapest
+  gender: M
+  originalsort: 126
+  photo-id: '032'
+  actor-movie-count: 3
+
+- jopling:
+  character-name: Jopling
+  actor-slug: willem-dafoe
+  actor-name: Willem Dafoe
+  movie-slug: budapest
+  gender: M
+  originalsort: 104
+  photo-id: '035'
+  actor-movie-count: 3
+
+- peter:
+  character-name: Peter
+  actor-slug: adrien-brody
+  actor-name: Adrien Brody
+  movie-slug: darjeeling
+  gender: M
+  originalsort: 39
+  photo-id: '018'
+  actor-movie-count: 3
+
+- rita:
+  character-name: Rita
+  actor-slug: amara-karan
+  actor-name: Amara Karan
+  movie-slug: darjeeling
+  gender: F
+  originalsort: 41
+  photo-id: '066'
+  actor-movie-count: 
+
+- patricia:
+  character-name: Patricia
+  actor-slug: anjelica-huston
+  actor-name: Anjelica Huston
+  movie-slug: darjeeling
+  gender: F
+  originalsort: 48
+  photo-id: '023'
+  actor-movie-count: 3
+
+- the-businessman:
+  character-name: The Businessman
+  actor-slug: bill-murray
+  actor-name: Bill Murray
+  movie-slug: darjeeling
+  gender: M
+  originalsort: 47
+  photo-id: '004'
+  actor-movie-count: 7
+
+- jack:
+  character-name: Jack
+  actor-slug: jason-schwartzman
+  actor-name: Jason Schwartzman
+  movie-slug: darjeeling
+  gender: M
+  originalsort: 40
+  photo-id: '009'
+  actor-movie-count: 5
+
+- old-man:
+  character-name: Old Man
+  actor-slug: kumar-pallana
+  actor-name: Kumar Pallana
+  movie-slug: darjeeling
+  gender: M
+  originalsort: 50
+  photo-id: '025'
+  actor-movie-count: 4
+
+- 'jack''s-ex-girlfriend':
+  character-name: 'Jack''s Ex-Girlfriend'
+  actor-slug: natalie-portman
+  actor-name: Natalie Portman
+  movie-slug: darjeeling
+  gender: F
+  originalsort: 51
+  photo-id: '103'
+  actor-movie-count: 
+
+- francis:
+  character-name: Francis
+  actor-slug: owen-wilson
+  actor-name: Owen Wilson
+  movie-slug: darjeeling
+  gender: M
+  originalsort: 38
+  photo-id: '015'
+  actor-movie-count: 6
+
+- the-chief-steward:
+  character-name: The Chief Steward
+  actor-slug: waris-ahluwalia
+  actor-name: Waris Ahluwalia
+  movie-slug: darjeeling
+  gender: M
+  originalsort: 43
+  photo-id: '031'
+  actor-movie-count: 3
+
+- eleanor-zissou:
+  character-name: Eleanor Zissou
+  actor-slug: anjelica-huston
+  actor-name: Anjelica Huston
+  movie-slug: lifeaquatic
+  gender: F
+  originalsort: 28
+  photo-id: '022'
+  actor-movie-count: 3
+
+- steve-zissou:
+  character-name: Steve Zissou
+  actor-slug: bill-murray
+  actor-name: Bill Murray
+  movie-slug: lifeaquatic
+  gender: M
+  originalsort: 25
+  photo-id: '003'
+  actor-movie-count: 7
+
+- jane-winslett-richardson:
+  character-name: Jane Winslett-Richardson
+  actor-slug: cate-blanchett
+  actor-name: Cate Blanchett
+  movie-slug: lifeaquatic
+  gender: F
+  originalsort: 27
+  photo-id: '073'
+  actor-movie-count: 
+
+- alistair-hennessey:
+  character-name: Alistair Hennessey
+  actor-slug: jeff-goldblum
+  actor-name: Jeff Goldblum
+  movie-slug: lifeaquatic
+  gender: M
+  originalsort: 30
+  photo-id: '046'
+  actor-movie-count: 2
+
+- ned-plimpton:
+  character-name: Ned Plimpton
+  actor-slug: owen-wilson
+  actor-name: Owen Wilson
+  movie-slug: lifeaquatic
+  gender: M
+  originalsort: 26
+  photo-id: '014'
+  actor-movie-count: 6
+
+- vikram-ray:
+  character-name: Vikram Ray
+  actor-slug: waris-ahluwalia
+  actor-name: Waris Ahluwalia
+  movie-slug: lifeaquatic
+  gender: M
+  originalsort: 36
+  photo-id: '030'
+  actor-movie-count: 3
+
+- klaus-daimler:
+  character-name: Klaus Daimler
+  actor-slug: willem-dafoe
+  actor-name: Willem Dafoe
+  movie-slug: lifeaquatic
+  gender: M
+  originalsort: 29
+  photo-id: '033'
+  actor-movie-count: 3
+
+- mr-bishop:
+  character-name: Mr. Bishop
+  actor-slug: bill-murray
+  actor-name: Bill Murray
+  movie-slug: moonrise
+  gender: M
+  originalsort: 77
+  photo-id: '006'
+  actor-movie-count: 7
+
+- the-narrator:
+  character-name: The Narrator
+  actor-slug: bob-balaban
+  actor-name: Bob Balaban
+  movie-slug: moonrise
+  gender: M
+  originalsort: 83
+  photo-id: '036'
+  actor-movie-count: 2
+
+- captain-sharp:
+  character-name: Captain Sharp
+  actor-slug: bruce-willis
+  actor-name: Bruce Willis
+  movie-slug: moonrise
+  gender: M
+  originalsort: 75
+  photo-id: '069'
+  actor-movie-count: 
+
+- scout-master-ward:
+  character-name: Scout Master Ward
+  actor-slug: edward-norton
+  actor-name: Edward Norton
+  movie-slug: moonrise
+  gender: M
+  originalsort: 76
+  photo-id: '040'
+  actor-movie-count: 2
+
+- mrs-bishop:
+  character-name: Mrs. Bishop
+  actor-slug: frances-mcdormand
+  actor-name: Frances McDormand
+  movie-slug: moonrise
+  gender: F
+  originalsort: 78
+  photo-id: '080'
+  actor-movie-count: 
+
+- sam:
+  character-name: Sam
+  actor-slug: jared-gilman
+  actor-name: Jared Gilman
+  movie-slug: moonrise
+  gender: M
+  originalsort: 80
+  photo-id: '091'
+  actor-movie-count: 
+
+- cousin-ben:
+  character-name: Cousin Ben
+  actor-slug: jason-schwartzman
+  actor-name: Jason Schwartzman
+  movie-slug: moonrise
+  gender: M
+  originalsort: 82
+  photo-id: '011'
+  actor-movie-count: 5
+
+- suzy:
+  character-name: Suzy
+  actor-slug: kara-hayward
+  actor-name: Kara Hayward
+  movie-slug: moonrise
+  gender: F
+  originalsort: 81
+  photo-id: '094'
+  actor-movie-count: 
+
+- social-services:
+  character-name: Social Services
+  actor-slug: tilda-swinton
+  actor-name: Tilda Swinton
+  movie-slug: moonrise
+  gender: F
+  originalsort: 79
+  photo-id: '060'
+  actor-movie-count: 2
+
+- field-mouse-:
+  character-name: Field Mouse 
+  actor-slug: adrien-brody
+  actor-name: Adrien Brody
+  movie-slug: mrfox
+  gender: M
+  originalsort: 72
+  photo-id: '019'
+  actor-movie-count: 3
+
+- badger-:
+  character-name: Badger 
+  actor-slug: bill-murray
+  actor-name: Bill Murray
+  movie-slug: mrfox
+  gender: M
+  originalsort: 56
+  photo-id: '005'
+  actor-movie-count: 7
+
+- mr-fox-:
+  character-name: Mr. Fox 
+  actor-slug: george-clooney
+  actor-name: George Clooney
+  movie-slug: mrfox
+  gender: M
+  originalsort: 53
+  photo-id: '084'
+  actor-movie-count: 
+
+- ash-:
+  character-name: Ash 
+  actor-slug: jason-schwartzman
+  actor-name: Jason Schwartzman
+  movie-slug: mrfox
+  gender: M
+  originalsort: 55
+  photo-id: '010'
+  actor-movie-count: 5
+
+- mrs-fox-:
+  character-name: Mrs. Fox 
+  actor-slug: meryl-streep
+  actor-name: Meryl Streep
+  movie-slug: mrfox
+  gender: F
+  originalsort: 54
+  photo-id: '102'
+  actor-movie-count: 
+
+- coach-skip-:
+  character-name: Coach Skip 
+  actor-slug: owen-wilson
+  actor-name: Owen Wilson
+  movie-slug: mrfox
+  gender: M
+  originalsort: 61
+  photo-id: '016'
+  actor-movie-count: 6
+
+- rat:
+  character-name: Rat
+  actor-slug: willem-dafoe
+  actor-name: Willem Dafoe
+  movie-slug: mrfox
+  gender: M
+  originalsort: 60
+  photo-id: '034'
+  actor-movie-count: 3
+
+- etheline-tenenbaum:
+  character-name: Etheline Tenenbaum
+  actor-slug: anjelica-huston
+  actor-name: Anjelica Huston
+  movie-slug: royal
+  gender: F
+  originalsort: 14
+  photo-id: '021'
+  actor-movie-count: 3
+
+- chas-tenenbaum:
+  character-name: Chas Tenenbaum
+  actor-slug: ben-stiller
+  actor-name: Ben Stiller
+  movie-slug: royal
+  gender: M
+  originalsort: 15
+  photo-id: '068'
+  actor-movie-count: 
+
+- raleigh-st-clair:
+  character-name: Raleigh St. Clair
+  actor-slug: bill-murray
+  actor-name: Bill Murray
+  movie-slug: royal
+  gender: M
+  originalsort: 19
+  photo-id: '002'
+  actor-movie-count: 7
+
+- henry-sherman:
+  character-name: Henry Sherman
+  actor-slug: danny-glover
+  actor-name: Danny Glover
+  movie-slug: royal
+  gender: M
+  originalsort: 20
+  photo-id: '076'
+  actor-movie-count: 
+
+- royal-tenenbaum:
+  character-name: Royal Tenenbaum
+  actor-slug: gene-hackman
+  actor-name: Gene Hackman
+  movie-slug: royal
+  gender: M
+  originalsort: 13
+  photo-id: '083'
+  actor-movie-count: 
+
+- margot-tenenbaum:
+  character-name: Margot Tenenbaum
+  actor-slug: gwyneth-paltrow
+  actor-name: Gwyneth Paltrow
+  movie-slug: royal
+  gender: F
+  originalsort: 16
+  photo-id: '086'
+  actor-movie-count: 
+
+- pagoda:
+  character-name: Pagoda
+  actor-slug: kumar-pallana
+  actor-name: Kumar Pallana
+  movie-slug: royal
+  gender: M
+  originalsort: 22
+  photo-id: '024'
+  actor-movie-count: 4
+
+- richie-tenenbaum:
+  character-name: Richie Tenenbaum
+  actor-slug: luke-wilson
+  actor-name: Luke Wilson
+  movie-slug: royal
+  gender: M
+  originalsort: 17
+  photo-id: '051'
+  actor-movie-count: 3
+
+- eli-cash:
+  character-name: Eli Cash
+  actor-slug: owen-wilson
+  actor-name: Owen Wilson
+  movie-slug: royal
+  gender: M
+  originalsort: 18
+  photo-id: '013'
+  actor-movie-count: 6
+
+- dusty:
+  character-name: Dusty
+  actor-slug: seymour-cassel
+  actor-name: Seymour Cassel
+  movie-slug: royal
+  gender: M
+  originalsort: 21
+  photo-id: '059'
+  actor-movie-count: 2
+
+- herman-j-blume:
+  character-name: Herman J. Blume
+  actor-slug: bill-murray
+  actor-name: Bill Murray
+  movie-slug: rushmore
+  gender: M
+  originalsort: 2
+  photo-id: '001'
+  actor-movie-count: 7
+
+- max-fischer:
+  character-name: Max Fischer
+  actor-slug: jason-schwartzman
+  actor-name: Jason Schwartzman
+  movie-slug: rushmore
+  gender: M
+  originalsort: 1
+  photo-id: '008'
+  actor-movie-count: 5
+
+- mr-littlejeans:
+  character-name: Mr. LittleJeans
+  actor-slug: kumar-pallana
+  actor-name: Kumar Pallana
+  movie-slug: rushmore
+  gender: M
+  originalsort: 10
+  photo-id: '026'
+  actor-movie-count: 4
+
+- dr-peter-flynn:
+  character-name: Dr. Peter Flynn
+  actor-slug: luke-wilson
+  actor-name: Luke Wilson
+  movie-slug: rushmore
+  gender: M
+  originalsort: 4
+  photo-id: '050'
+  actor-movie-count: 3
+
+- rosemary-cross:
+  character-name: Rosemary Cross
+  actor-slug: olivia-williams
+  actor-name: Olivia Williams
+  movie-slug: rushmore
+  gender: F
+  originalsort: 3
+  photo-id: '105'
+  actor-movie-count: 
+
+- margaret-yang:
+  character-name: Margaret Yang
+  actor-slug: sara-tanaka
+  actor-name: Sara Tanaka
+  movie-slug: rushmore
+  gender: F
+  originalsort: 7
+  photo-id: '111'
+  actor-movie-count: 
+
+- bert-fischer:
+  character-name: Bert Fischer
+  actor-slug: seymour-cassel
+  actor-name: Seymour Cassel
+  movie-slug: rushmore
+  gender: M
+  originalsort: 5
+  photo-id: '058'
+  actor-movie-count: 2

@@ -1,0 +1,4 @@
+{% for character in site.data.characters %}
+{% assign movie = site.data.movies | where:"movie-slug", character.movie-slug | first %}
+<div class="mix type-{{ character.actor-slug }} category-{{ character.movie-slug }} gender-{{ character.gender }}" data-movie="{{ character.movie-slug }}" data-myorder="{{ character.originalsort }}"><span class="photo" style="background-image: url(img/wes-char-{{ character.photo-id }}.jpg);"></span><span class="name">{{ character.character-name }}</span><span class="type">{{ character.actor-name }}</span><span class="category">{{ movie.movie-title }}</span>{% if character.actor-movie-count %}<span class="count"><em>{{ character.actor-movie-count }}</em></span>{% endif %}</div>
+{% endfor %}
