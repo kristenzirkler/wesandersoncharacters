@@ -1,0 +1,29 @@
+{% include site-head-code.html %}
+{% include site-header.html %}
+<div class="movie-page movie-{{ page.movie-slug }}">
+  <div class="movie-header">
+    <div class="copy">
+      <h1>{{ page.movie-title }}</h1>
+      <em>{{ page.year }}</em>
+      <p>{{ page.blurb }}</p>
+    </div>
+    <div class="bg-image" style="background-image: url({{ site.baseurl }}/img/movie-lg-{{ page.movie-slug }}.jpg);">&nbsp;</div>
+  </div>
+
+  <p>
+    <a target="_blank" class="imdb" href="{{ page.imdb-link }}">IMDB</a>
+    <a target="_blank" class="wiki" href="{{ page.wiki }}">Wiki</a>
+  </p>
+  <iframe data-video="{{ page.trailer-video }}" width="100%" height="360" src="" frameborder="0" allowfullscreen></iframe>
+
+  <div class="content">{{ content }}</div>
+  <h2>Characters</h2>
+
+{% assign movie-characters = site.data.characters | where:"movie-slug", page.movie-slug %}
+
+  {% for character in movie-characters %}<div class="mix type-{{ character.actor-slug }} category-{{ character.movie-slug }} gender-{{ character.gender }}" data-movie="{{ character.movie-slug }}" data-myorder="{{ character.originalsort }}"><span class="photo" style="background-image: url({{ site.baseurl }}/img/wes-char-{{ character.photo-id }}.jpg);"></span><span class="name">{{ character.character-name }}</span><span class="type">{{ character.actor-name }}</span><span class="category">{{ movie.movie-title }}</span>{% if character.actor-movie-count %}<span class="count"><em><i class="icon-video-alt"></i>{{ character.actor-movie-count }}</em></span>{% endif %}</div>
+{% endfor %}
+
+
+</div>
+{% include site-foot-code.html %}

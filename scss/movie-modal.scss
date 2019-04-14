@@ -1,5 +1,4 @@
-
-@mixin movie-design($color) {
+@mixin movie-modal-design($color) {
 
   background: rgba($color,.9);
   .content {
@@ -30,7 +29,7 @@ filter: grayscale($amount);
     
     @for $i from 1 through length($category-list) {
       &.movie-#{nth($category-list, $i)} {
-        @include movie-design(nth($category-vars-list, $i));
+        @include movie-modal-design(nth($category-vars-list, $i));
       }
     }
     .content {

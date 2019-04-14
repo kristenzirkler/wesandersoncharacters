@@ -1,0 +1,31 @@
+// Movie Page
+.movie-header {
+  height: 80vh;
+  position: relative;
+  .bg-image {
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+  .copy {
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0;
+    z-index: 2;
+    text-align: center;
+    padding: 40px;
+  }
+  h1, em, p {
+    color: $white;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  em {
+
+  }
+}

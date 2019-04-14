@@ -2,7 +2,8 @@
 
 @import 'reset';
 @import 'filters';
-@import 'movie';
+@import 'movie-modal';
+@import 'movie-page';
 @import 'icons';
 
 @mixin tile-design($color) {
@@ -76,6 +77,22 @@ a {
     background-size: cover;
     opacity: .5;
     z-index: 1;
+  }
+  &.intro--small {
+    height: 100px;
+    .title {
+      padding: 20px 0 0;
+    }
+    h1 {
+      font-size: 30px;
+      em {
+        font-size: .6em;
+      }
+    }
+    img {
+      height: 100px;
+    }
+
   }
 }
 
@@ -163,7 +180,7 @@ a {
     }
     .count {
       border-color: rgba(#fff,.7) rgba(#fff,.7) transparent;
-      border-width: 45px 15px 15px;
+      border-width: 35px 20px 20px;
       border-style: solid;
       height: 0;
       width: 0;
@@ -180,17 +197,14 @@ a {
       em {
         font-size: 14px;
         color: white;
-        width: 30px;
+        width: 40px;
         text-align: center;
         display: block;
         position: absolute;
-        top: -35px;
-        left: -15px;
-        &:before {
-          content: '\f007';
-          font: normal normal normal 10px/1 FontAwesome;
-          margin-bottom: 3px;
-          display: block;
+        top: -26px;
+        left: -20px;
+        i {
+          margin-right: 4px;
         }
       }
     }

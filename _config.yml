@@ -2,6 +2,13 @@ highlighter: rouge
 github: [Repository metadata]
 
 baseurl: "http://www.wesandersoncharacters.com"
+livereload: true
+
+collections:
+  movie:
+    output: true
+    output_ext: .html
+    permalink: /movie/:path/
 
 # Sass
 sass:

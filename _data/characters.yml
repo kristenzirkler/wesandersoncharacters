@@ -58,7 +58,7 @@
   gender: M
   originalsort: 108
   photo-id: '007'
-  actor-movie-count: 7
+  actor-movie-count: 8
 
 - henckels:
   character-name: Henckels
@@ -78,7 +78,7 @@
   gender: M
   originalsort: 101
   photo-id: '077'
-  actor-movie-count: 
+  actor-movie-count: 2
 
 - ludwig:
   character-name: Ludwig
@@ -108,7 +108,7 @@
   gender: M
   originalsort: 105
   photo-id: '047'
-  actor-movie-count: 2
+  actor-movie-count: 3
 
 - young-writer:
   character-name: Young Writer
@@ -178,7 +178,7 @@
   gender: F
   originalsort: 113
   photo-id: '061'
-  actor-movie-count: 2
+  actor-movie-count: 3
 
 - zero:
   character-name: Zero
@@ -248,7 +248,7 @@
   gender: M
   originalsort: 47
   photo-id: '004'
-  actor-movie-count: 7
+  actor-movie-count: 8
 
 - jack:
   character-name: Jack
@@ -318,7 +318,7 @@
   gender: M
   originalsort: 25
   photo-id: '003'
-  actor-movie-count: 7
+  actor-movie-count: 8
 
 - jane-winslett-richardson:
   character-name: Jane Winslett-Richardson
@@ -338,7 +338,7 @@
   gender: M
   originalsort: 30
   photo-id: '046'
-  actor-movie-count: 2
+  actor-movie-count: 3
 
 - ned-plimpton:
   character-name: Ned Plimpton
@@ -378,7 +378,7 @@
   gender: M
   originalsort: 77
   photo-id: '006'
-  actor-movie-count: 7
+  actor-movie-count: 8
 
 - the-narrator:
   character-name: The Narrator
@@ -418,7 +418,7 @@
   gender: F
   originalsort: 78
   photo-id: '080'
-  actor-movie-count: 
+  actor-movie-count: 2
 
 - sam:
   character-name: Sam
@@ -458,7 +458,7 @@
   gender: F
   originalsort: 79
   photo-id: '060'
-  actor-movie-count: 2
+  actor-movie-count: 3
 
 - field-mouse-:
   character-name: Field Mouse 
@@ -478,7 +478,7 @@
   gender: M
   originalsort: 56
   photo-id: '005'
-  actor-movie-count: 7
+  actor-movie-count: 8
 
 - mr-fox-:
   character-name: Mr. Fox 
@@ -558,7 +558,7 @@
   gender: M
   originalsort: 19
   photo-id: '002'
-  actor-movie-count: 7
+  actor-movie-count: 8
 
 - henry-sherman:
   character-name: Henry Sherman
@@ -638,7 +638,7 @@
   gender: M
   originalsort: 2
   photo-id: '001'
-  actor-movie-count: 7
+  actor-movie-count: 8
 
 - max-fischer:
   character-name: Max Fischer
@@ -699,3 +699,174 @@
   originalsort: 5
   photo-id: '058'
   actor-movie-count: 2
+
+- chief:
+  character-name: Chief
+  actor-slug: bryan-cranston
+  actor-name: Bryan Cranston
+  movie-slug: isleofdogs
+  gender: M
+  originalsort: 140
+  photo-id: '123'
+
+- atari-kobayashi:
+  character-name: Atari Kobayashi
+  actor-slug: koyu-rankin
+  actor-name: Koyu Rankin
+  movie-slug: isleofdogs
+  gender: M
+  originalsort: 141
+  photo-id: '124'
+
+- rex:
+  character-name: Rex
+  actor-slug: edward-norton
+  actor-name: Edward Norton
+  movie-slug: isleofdogs
+  gender: M
+  originalsort: 142
+  photo-id: '125'
+  actor-movie-count: 3
+
+- king:
+  character-name: King
+  actor-slug: bob-balaban
+  actor-name: Bob Balaban
+  movie-slug: isleofdogs
+  gender: M
+  originalsort: 143
+  photo-id: '126'
+  actor-movie-count: 2
+
+- boss:
+  character-name: Boss
+  actor-slug: bill-murray
+  actor-name: Bill Murray
+  movie-slug: isleofdogs
+  gender: M
+  originalsort: 144
+  photo-id: '127'
+  actor-movie-count: 8
+
+- duke:
+  character-name: Duke
+  actor-slug: jeff-goldblum
+  actor-name: Jeff Goldblum
+  movie-slug: isleofdogs
+  gender: M
+  originalsort: 145
+  photo-id: '128'
+  actor-movie-count: 3
+
+- mayor-kenji-kobayashi:
+  character-name: Mayor Kenji Kobayashi
+  actor-slug: kunichi-nomura
+  actor-name: Kunichi Nomura
+  movie-slug: isleofdogs
+  gender: M
+  originalsort: 146
+  photo-id: '129'
+  actor-movie-count: 5
+
+- major-domo:
+  character-name: Major Domo
+  actor-slug: akira-takayama
+  actor-name: Akira Takayama
+  movie-slug: isleofdogs
+  gender: M
+  originalsort: 147
+  photo-id: '130'
+
+- tracy-walker:
+  character-name: Tracy Walker
+  actor-slug: greta-gerwig
+  actor-name: Greta Gerwig
+  movie-slug: isleofdogs
+  gender: F
+  originalsort: 148
+  photo-id: '131'
+
+- interpreter-nelson:
+  character-name: Interpreter Nelson
+  actor-slug: frances-mcdormand
+  actor-name: Frances McDormand
+  movie-slug: isleofdogs
+  gender: F
+  originalsort: 149
+  photo-id: '132'
+  actor-movie-count: 2
+
+- professor-watanabe:
+  character-name: Professor Watanabe
+  actor-slug: akira-ito
+  actor-name: Akira Ito
+  movie-slug: isleofdogs
+  gender: M
+  originalsort: 150
+  photo-id: '133'
+
+- nutmeg:
+  character-name: Nutmeg
+  actor-slug: scarlett-johansson
+  actor-name: Scarlett Johansson
+  movie-slug: isleofdogs
+  gender: F
+  originalsort: 151
+  photo-id: '134'
+
+- gondo:
+  character-name: Gondo
+  actor-slug: harvey-keitel
+  actor-name: Harvey Keitel
+  movie-slug: isleofdogs
+  gender: M
+  originalsort: 152
+  photo-id: '135'
+  actor-movie-count: 2
+
+- jupiter:
+  character-name: Jupiter
+  actor-slug: f-murray-abraham
+  actor-name: F. Murray Abraham
+  movie-slug: isleofdogs
+  gender: M
+  originalsort: 153
+  photo-id: '136'
+  actor-movie-count: 2
+
+- assistant-scientist-yoko-ono:
+  character-name: Assistant Scientist Yoko Ono
+  actor-slug: yoko-ono
+  actor-name: Yoko Ono
+  movie-slug: isleofdogs
+  gender: F
+  originalsort: 154
+  photo-id: '137'
+
+- oracle:
+  character-name: Oracle
+  actor-slug: tilda-swinton
+  actor-name: Tilda Swinton
+  movie-slug: isleofdogs
+  gender: F
+  originalsort: 155
+  photo-id: '138'
+  actor-movie-count: 3
+
+- editor-hiroshi:
+  character-name: Editor Hiroshi
+  actor-slug: nijiro-murakami
+  actor-name: Nijiro Murakami
+  movie-slug: isleofdogs
+  gender: M
+  originalsort: 156
+  photo-id: '142'
+
+- spots:
+  character-name: Spots
+  actor-slug: liev-schreiber
+  actor-name: Liev Schreiber
+  movie-slug: isleofdogs
+  gender: M
+  originalsort: 157
+  photo-id: '143'
