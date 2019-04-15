@@ -79,7 +79,10 @@ a {
     z-index: 1;
   }
   &.intro--small {
-    height: 100px;
+    height: 70px;
+    img {
+      height: 70px;
+    }
     .title {
       padding: 20px 0 0;
     }
@@ -87,10 +90,9 @@ a {
       font-size: 30px;
       em {
         font-size: .6em;
+        display: inline-block;
+        margin-right: 8px;
       }
-    }
-    img {
-      height: 100px;
     }
 
   }

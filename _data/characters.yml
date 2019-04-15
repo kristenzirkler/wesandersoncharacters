@@ -448,7 +448,7 @@
   gender: F
   originalsort: 81
   photo-id: '094'
-  actor-movie-count: 
+  actor-movie-count: 2
 
 - social-services:
   character-name: Social Services
@@ -870,3 +870,13 @@
   gender: M
   originalsort: 157
   photo-id: '143'
+
+- peppermint:
+  character-name: Peppermint
+  actor-slug: kara-hayward
+  actor-name: Kara Hayward
+  movie-slug: isleofdogs
+  gender: F
+  originalsort: 158
+  photo-id: '144'
+  actor-movie-count: 2

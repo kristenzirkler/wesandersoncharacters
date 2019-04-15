@@ -1,19 +1,20 @@
 {% include site-head-code.html %}
 {% include site-header.html %}
-<div class="movie-page movie-{{ page.movie-slug }}">
+<div class="movie-page movie-page-{{ page.movie-slug }}">
   <div class="movie-header">
-    <div class="copy">
-      <h1>{{ page.movie-title }}</h1>
-      <em>{{ page.year }}</em>
-      <p>{{ page.blurb }}</p>
-    </div>
-    <div class="bg-image" style="background-image: url({{ site.baseurl }}/img/movie-lg-{{ page.movie-slug }}.jpg);">&nbsp;</div>
+    <h1>{{ page.movie-title }}</h1>
+    <div class="bg-image" style="background-image: url({{ site.baseurl }}/img/movie-gif-{{ page.movie-slug }}.gif);">&nbsp;</div>
+    <div class="year">{{ page.year }}</div>
+  </div>
+  <div class="page-intro">
+    <p>{{ page.blurb }}</p>
+    <p>
+      <a target="_blank" class="imdb" href="{{ page.imdb-link }}">IMDB</a>
+      <a target="_blank" class="wiki" href="{{ page.wiki }}">Wiki</a>
+    </p>
   </div>
 
-  <p>
-    <a target="_blank" class="imdb" href="{{ page.imdb-link }}">IMDB</a>
-    <a target="_blank" class="wiki" href="{{ page.wiki }}">Wiki</a>
-  </p>
+
   <iframe data-video="{{ page.trailer-video }}" width="100%" height="360" src="" frameborder="0" allowfullscreen></iframe>
 
   <div class="content">{{ content }}</div>

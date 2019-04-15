@@ -1,7 +1,30 @@
 // Movie Page
+@mixin movie-page($color) {
+  .movie-header {
+    .bg-image {
+      border-color: $color;
+    }
+    .year {
+      background-color: $color;
+    }
+  }
+}
 .movie-header {
-  height: 80vh;
+  height: 400px;
   position: relative;
+  background-color: $black;
+  margin-bottom: 40px; 
+  h1 {
+    font-size: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0;
+    z-index: 2;
+    text-align: center;
+    padding: 40px;
+    color: $white;
+    text-shadow: 0 0 20px rgba($black,.7);
+  }
   .bg-image {
     position: absolute;
     top: 0; bottom: 0;
@@ -10,22 +33,32 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
+    border-bottom: 8px solid $black;
+    opacity: .9;
   }
-  .copy {
+  .year {
+    color: $white;
+    background-color: $black;
+    font-size: 18px;
     position: absolute;
-    bottom: 0;
-    left: 0; right: 0;
+    left: 50%; bottom: -18px;
+    line-height: 44px;
+    margin-left: -50px;
+    width: 100px;
     z-index: 2;
     text-align: center;
-    padding: 40px;
   }
-  h1, em, p {
-    color: $white;
+}
+@for $i from 1 through length($category-list) {
+  .movie-page-#{nth($category-list, $i)} {
+    @include movie-page(nth($category-vars-list, $i));
   }
-  h1 {
-    font-size: 60px;
-  }
-  em {
-
+}
+.page-intro {
+  p {
+    font-size: 18px;
+    padding: 20px 40px 40px;
+    text-align: center;
+    margin-bottom: 30px;
   }
 }

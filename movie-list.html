@@ -1,0 +1,9 @@
+---
+layout: default
+slug: movie-list
+path: ../
+---
+{% assign movies = site.movie | sort: "year" %}
+{% for movie in movies %}
+    <p><a href="/movie/{{ movie.movie-slug }}">{{ movie.year }} - {{ movie.movie-title }}</a></p>
+{% endfor %}
