@@ -32,8 +32,8 @@ path: ../
   </div>
 </div><!-- .controls -->
 
-<div id="ItemList" class="container">
-{% include character-list.html %}
+<div id="ItemList" class="container character-list grid-3-col">
+{% include character-list.html data=site.data.characters %}
 </div>
 <div class="movies">
 {% include movie-modals.html %}    
