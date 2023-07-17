@@ -4,6 +4,16 @@
 	{% include filter-list-item.html filter="gender-M" label="Gents" %}
 {% elsif include.list == 'movie' %}{% assign sorted_movies = site.data.movies | sort: 'year' %}{% for movie in sorted_movies %}{% capture movie-filter %}category-{{ movie.movie-slug }}{% endcapture %}
 	{% include filter-list-item.html filter=movie-filter label=movie.movie-title class=movie.movie-slug %}{% endfor %}
-{% elsif include.list == "actors" %}{% assign sorted_actors = site.data.characters | sort: 'actor-slug' | group_by: 'actor-slug' %}{% for actor in sorted_actors %}{% for item in actor.items %}{% if item.actor-movie-count > 1 and item.actor-name != last_actor %}{% capture actor-filter %}type-{{ item.actor-slug }}{% endcapture %}
-{% include filter-list-item.html filter=actor-filter label=item.actor-name %}{% assign last_actor = item.actor-name %}{% endif %}{% endfor %}{% endfor %}{% endif %}
+{% elsif include.list == "actors" %}
+	{% assign sorted_actors = site.data.character | sort: 'actor-slug' | group_by: 'actor-slug' %}
+	{% for actor in sorted_actors %}
+		{% for item in actor.items %}
+			{% if item.actor-movie-count and item.actor-name != last_actor %}
+				{% capture actor-filter %}type-{{ item.actor-slug }}{% endcapture %}
+				{% include filter-list-item.html filter=actor-filter label=item.actor-name %}
+				{% assign last_actor = item.actor-name %}
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+{% endif %}
 </div>

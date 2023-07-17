@@ -12,3 +12,5 @@ Upcoming Updates
 - add movie pages
 - add meta ratings
 - add character & actor pages
+
+bundle exec jekyll serve --baseurl=

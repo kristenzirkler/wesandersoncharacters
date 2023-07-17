@@ -22,7 +22,7 @@
 {% endcomment %}
   <h2>The Characters</h2>
 
-  {% assign movie-characters = site.data.characters | where:"movie-slug", page.movie-slug %}
+  {% assign movie-characters = site.data.character | where:"movie-slug", page.movie-slug %}
   <div id="ItemList" class="container character-list grid-4-col">
   {% include character-list.html data=movie-characters layout="movie-page" %}
   </div>

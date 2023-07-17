@@ -1,0 +1,114 @@
+slug,character-name,actor-slug,actor-name,movie-slug,gender,originalsort,photo-id,actor-movie-count
+max-fischer,Max Fischer,jason-schwartzman,Jason Schwartzman,rushmore,M,1,008,6
+herman-j-blume,Herman J. Blume,bill-murray,Bill Murray,rushmore,M,2,001,9
+rosemary-cross,Rosemary Cross,olivia-williams,Olivia Williams,rushmore,F,3,105,
+dr-peter-flynn,Dr. Peter Flynn,luke-wilson,Luke Wilson,rushmore,M,4,050,3
+bert-fischer,Bert Fischer,seymour-cassel,Seymour Cassel,rushmore,M,5,058,2
+margaret-yang,Margaret Yang,sara-tanaka,Sara Tanaka,rushmore,F,7,111,
+mr-littlejeans,Mr. LittleJeans,kumar-pallana,Kumar Pallana,rushmore,M,10,026,4
+royal-tenenbaum,Royal Tenenbaum,gene-hackman,Gene Hackman,royal,M,13,083,
+etheline-tenenbaum,Etheline Tenenbaum,anjelica-huston,Anjelica Huston,royal,F,14,021,4
+chas-tenenbaum,Chas Tenenbaum,ben-stiller,Ben Stiller,royal,M,15,068,
+margot-tenenbaum,Margot Tenenbaum,gwyneth-paltrow,Gwyneth Paltrow,royal,F,16,086,
+richie-tenenbaum,Richie Tenenbaum,luke-wilson,Luke Wilson,royal,M,17,051,3
+eli-cash,Eli Cash,owen-wilson,Owen Wilson,royal,M,18,013,7
+raleigh-st-clair,Raleigh St. Clair,bill-murray,Bill Murray,royal,M,19,002,9
+henry-sherman,Henry Sherman,danny-glover,Danny Glover,royal,M,20,076,
+dusty,Dusty,seymour-cassel,Seymour Cassel,royal,M,21,059,2
+pagoda,Pagoda,kumar-pallana,Kumar Pallana,royal,M,22,024,4
+steve-zissou,Steve Zissou,bill-murray,Bill Murray,lifeaquatic,M,25,003,9
+ned-plimpton,Ned Plimpton,owen-wilson,Owen Wilson,lifeaquatic,M,26,014,7
+jane-winslett-richardson,Jane Winslett-Richardson,cate-blanchett,Cate Blanchett,lifeaquatic,F,27,073,
+eleanor-zissou,Eleanor Zissou,anjelica-huston,Anjelica Huston,lifeaquatic,F,28,022,4
+klaus-daimler,Klaus Daimler,willem-dafoe,Willem Dafoe,lifeaquatic,M,29,033,4
+alistair-hennessey,Alistair Hennessey,jeff-goldblum,Jeff Goldblum,lifeaquatic,M,30,046,3
+vikram-ray,Vikram Ray,waris-ahluwalia,Waris Ahluwalia,lifeaquatic,M,36,030,3
+francis,Francis,owen-wilson,Owen Wilson,darjeeling,M,38,015,7
+peter,Peter,adrien-brody,Adrien Brody,darjeeling,M,39,018,4
+jack,Jack,jason-schwartzman,Jason Schwartzman,darjeeling,M,40,009,6
+rita,Rita,amara-karan,Amara Karan,darjeeling,F,41,066,
+the-chief-steward,The Chief Steward,waris-ahluwalia,Waris Ahluwalia,darjeeling,M,43,031,3
+the-businessman,The Businessman,bill-murray,Bill Murray,darjeeling,M,47,004,9
+patricia,Patricia,anjelica-huston,Anjelica Huston,darjeeling,F,48,023,4
+old-man,Old Man,kumar-pallana,Kumar Pallana,darjeeling,M,50,025,4
+jack's-ex-girlfriend,Jack's Ex-Girlfriend,natalie-portman,Natalie Portman,darjeeling,F,51,103,
+mr-fox-,Mr. Fox ,george-clooney,George Clooney,mrfox,M,53,084,
+mrs-fox-,Mrs. Fox ,meryl-streep,Meryl Streep,mrfox,F,54,102,
+ash-,Ash ,jason-schwartzman,Jason Schwartzman,mrfox,M,55,010,6
+badger-,Badger ,bill-murray,Bill Murray,mrfox,M,56,005,9
+rat,Rat,willem-dafoe,Willem Dafoe,mrfox,M,60,034,4
+coach-skip-,Coach Skip ,owen-wilson,Owen Wilson,mrfox,M,61,016,7
+field-mouse-,Field Mouse ,adrien-brody,Adrien Brody,mrfox,M,72,019,4
+captain-sharp,Captain Sharp,bruce-willis,Bruce Willis,moonrise,M,75,069,
+scout-master-ward,Scout Master Ward,edward-norton,Edward Norton,moonrise,M,76,040,4
+mr-bishop,Mr. Bishop,bill-murray,Bill Murray,moonrise,M,77,006,9
+mrs-bishop,Mrs. Bishop,frances-mcdormand,Frances McDormand,moonrise,F,78,080,3
+social-services,Social Services,tilda-swinton,Tilda Swinton,moonrise,F,79,060,4
+sam,Sam,jared-gilman,Jared Gilman,moonrise,M,80,091,
+suzy,Suzy,kara-hayward,Kara Hayward,moonrise,F,81,094,2
+cousin-ben,Cousin Ben,jason-schwartzman,Jason Schwartzman,moonrise,M,82,011,6
+the-narrator,The Narrator,bob-balaban,Bob Balaban,moonrise,M,83,036,3
+m-gustave,M. Gustave,ralph-fiennes,Ralph Fiennes,budapest,M,100,106,
+mr-moustafa,Mr. Moustafa,f-murray-abraham,F. Murray Abraham,budapest,M,101,077,2
+serge-x,Serge X.,mathieu-amalric,Mathieu Amalric,budapest,M,102,101,2
+dmitri,Dmitri,adrien-brody,Adrien Brody,budapest,M,103,020,4
+jopling,Jopling,willem-dafoe,Willem Dafoe,budapest,M,104,035,4
+deputy-kovacs,Deputy Kovacs,jeff-goldblum,Jeff Goldblum,budapest,M,105,047,3
+ludwig,Ludwig,harvey-keitel,Harvey Keitel,budapest,M,106,045,2
+young-writer,Young Writer,jude-law,Jude Law,budapest,M,107,093,
+m-ivan,M. Ivan,bill-murray,Bill Murray,budapest,M,108,007,9
+henckels,Henckels,edward-norton,Edward Norton,budapest,M,109,041,4
+anthony-adams,Anthony Adams,luke-wilson,Luke Wilson,bottle,M,109,119,3
+dignan,Dignan,owen-wilson,Owen Wilson,bottle,M,110,120,7
+agatha,Agatha,saoirse-ronan,Saoirse Ronan,budapest,F,110,110,2
+m-jean,M. Jean,jason-schwartzman,Jason Schwartzman,budapest,M,111,012,6
+bob-mapplethorpe,Bob Mapplethorpe,robert-musgrave,Robert Musgrave,bottle,M,111,121,
+kumar,Kumar,kumar-pallana,Kumar Pallana,bottle,M,112,122,4
+clotilde,Clotilde,léa-seydoux,Léa Seydoux,budapest,F,112,098,
+madame-d,Madame D.,tilda-swinton,Tilda Swinton,budapest,F,113,061,4
+m-chuck,M. Chuck,owen-wilson,Owen Wilson,budapest,M,115,017,7
+zero,Zero,tony-revolori,Tony Revolori,budapest,M,116,118,2
+m-dino,M. Dino,waris-ahluwalia,Waris Ahluwalia,budapest,M,126,032,3
+chief,Chief,bryan-cranston,Bryan Cranston,isleofdogs,M,140,123,
+atari-kobayashi,Atari Kobayashi,koyu-rankin,Koyu Rankin,isleofdogs,M,141,124,
+rex,Rex,edward-norton,Edward Norton,isleofdogs,M,142,125,4
+king,King,bob-balaban,Bob Balaban,isleofdogs,M,143,126,3
+boss,Boss,bill-murray,Bill Murray,isleofdogs,M,144,127,9
+duke,Duke,jeff-goldblum,Jeff Goldblum,isleofdogs,M,145,128,3
+mayor-kenji-kobayashi,Mayor Kenji Kobayashi,kunichi-nomura,Kunichi Nomura,isleofdogs,M,146,129,5
+major-domo,Major Domo,akira-takayama,Akira Takayama,isleofdogs,M,147,130,
+tracy-walker,Tracy Walker,greta-gerwig,Greta Gerwig,isleofdogs,F,148,131,
+interpreter-nelson,Interpreter Nelson,frances-mcdormand,Frances McDormand,isleofdogs,F,149,132,3
+professor-watanabe,Professor Watanabe,akira-ito,Akira Ito,isleofdogs,M,150,133,
+nutmeg,Nutmeg,scarlett-johansson,Scarlett Johansson,isleofdogs,F,151,134,
+gondo,Gondo,harvey-keitel,Harvey Keitel,isleofdogs,M,152,135,2
+jupiter,Jupiter,f-murray-abraham,F. Murray Abraham,isleofdogs,M,153,136,2
+assistant-scientist-yoko-ono,Assistant Scientist Yoko Ono,yoko-ono,Yoko Ono,isleofdogs,F,154,137,
+oracle,Oracle,tilda-swinton,Tilda Swinton,isleofdogs,F,155,138,4
+editor-hiroshi,Editor Hiroshi,nijiro-murakami,Nijiro Murakami,isleofdogs,M,156,142,
+spots,Spots,liev-schreiber,Liev Schreiber,isleofdogs,M,157,143,2
+peppermint,Peppermint,kara-hayward,Kara Hayward,isleofdogs,F,158,144,2
+herbsaint-sazerac,Herbsaint Sazerac,owen-wilson,Owen Wilson,frenchdispatch,M,158,145,7
+moses-rosenthaler,Moses Rosenthaler,benicio-del-toro,Benicio del Toro,frenchdispatch,M,158,146,
+young-rosenthaler,Young Rosenthaler,tony-revolori,Tony Revolori,frenchdispatch,M,158,147,2
+julian-cadazio,Julian Cadazio,adrien-brody,Adrien Brody,frenchdispatch,M,158,148,4
+jkl-berensen,J.K.L. Berensen,tilda-swinton,Tilda Swinton,frenchdispatch,F,158,149,4
+uncle-nick,Uncle Nick,bob-balaban,Bob Balaban,frenchdispatch,M,158,150,3
+uncle-joe,Uncle Joe,henry-winkler,Henry Winkler,frenchdispatch,M,158,151,
+lucinda-krementz,Lucinda Krementz,frances-mcdormand,Frances McDormand,frenchdispatch,F,158,152,3
+zeffirelli,Zeffirelli,timothée-chalamet,Timothée Chalamet,frenchdispatch,M,158,153,
+juliette,Juliette,lyna-khoudri,Lyna Khoudri,frenchdispatch,F,158,154,
+paul-duval,Paul Duval,christoph-waltz,Christoph Waltz,frenchdispatch,M,158,155,
+drill-sergeant,Drill-Sergeant,rupert-friend,Rupert Friend,frenchdispatch,M,158,156,
+roebuck-wright,Roebuck Wright,jeffrey-wright,Jeffrey Wright,frenchdispatch,M,158,157,
+talk-show-host,Talk Show Host,liev-schreiber,Liev Schreiber,frenchdispatch,M,158,158,2
+the-commissaire,The Commissaire,mathieu-amalric,Mathieu Amalric,frenchdispatch,M,158,159,2
+nescaffier,Nescaffier,stephen-park,Stephen Park,frenchdispatch,M,158,160,
+albert-'the-abacus',Albert 'the Abacus',willem-dafoe,Willem Dafoe,frenchdispatch,M,158,161,4
+the-chauffeur,The Chauffeur,edward-norton,Edward Norton,frenchdispatch,M,158,162,4
+junkie-/-showgirl-#1,Junkie / Showgirl #1,saoirse-ronan,Saoirse Ronan,frenchdispatch,F,158,163,2
+"arthur-howitzer,-jr","Arthur Howitzer, Jr.",bill-murray,Bill Murray,frenchdispatch,M,158,164,9
+alumna,Alumna,elisabeth-moss,Elisabeth Moss,frenchdispatch,F,158,165,
+hermès-jones,Hermès Jones,jason-schwartzman,Jason Schwartzman,frenchdispatch,M,158,166,6
+story-editor,Story Editor,fisher-stevens,Fisher Stevens,frenchdispatch,M,158,167,
+narrator,Narrator,anjelica-huston,Anjelica Huston,frenchdispatch,F,158,168,4
